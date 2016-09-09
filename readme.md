@@ -1,24 +1,24 @@
 # fs-rescan-service
 
-FusionStorm Drive Rescan Service - 4/25/2008 - v1.10
+Drive Rescan Service - 4/25/2008 - v1.10
 
 ## History
 This service was developed for use with PlateSpin P2V distaster recovery of OS volumes and EMC RecoverPoint replication for DB data and log volumes.
+
 Problem addressed:  When attaching of RecoverPoint volumes on Windows 2000 and Windows 2003 VMs following P2V failover of OS with PlateSpin the volume drive letters were inconsistent.
 
 
 ## Requirements
 - Windows 2003 Resource Kit (https://www.microsoft.com/en-us/download/details.aspx?id=17657)
--- instsrv.exe
--- srvany.exe
+..- instsrv.exe
+..- srvany.exe
 
 
 ## Usage
-##### Web Server
 - Download code from GitHub
-    - _Note:  If you don't have Git installed you can also just grab the zip:  https://github.com/rbocchinfuso/opsgenie2osticket-for-slack/archive/master.zip_
+    - _Note:  If you don't have Git installed you can also just grab the zip:  https://github.com/rbocchinfuso/fs-rescan-service/archive/master.zip
 ```
-    git clone https://github.com/rbocchinfuso/opsgenie2osticket-for-slack.git
+    git clone https://github.com/rbocchinfuso/fs-rescan-service.git
 ```
 
 
